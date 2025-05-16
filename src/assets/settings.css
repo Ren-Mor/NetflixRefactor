@@ -1,0 +1,11 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+#main-container {
+  width: 60%;
+}
+
+p {
+  white-space: nowrap;
+}

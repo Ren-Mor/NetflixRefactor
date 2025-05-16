@@ -1,0 +1,54 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 4rem !important;
+  letter-spacing: 1px;
+}
+
+#container-main {
+  max-width: 70vh !important;
+}
+
+input {
+  max-width: 95%;
+  border: none !important;
+  border-radius: 0% !important;
+}
+
+input::placeholder {
+  color: white !important;
+  font-size: 1.3rem;
+}
+
+select {
+  max-width: 8rem;
+  border-radius: 0% !important;
+  border: white solid 2px !important;
+}
+
+button {
+  all: unset;
+  cursor: pointer;
+  border: gray solid 1px !important;
+  letter-spacing: 4px;
+  margin-bottom: 2rem !important;
+}
+
+#save-btn {
+  border: none;
+  background-color: white !important;
+  color: rgb(20, 20, 20);
+}
+
+.form-check {
+  display: flex !important;
+  align-items: center !important;
+}
+
+#check {
+  padding: 1rem;
+  margin-right: 5px;
+  align-items: center;
+}
